@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EFB279872C2B26CF007ADC30 /* UIDevice+Idiom.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB279862C2B26CF007ADC30 /* UIDevice+Idiom.swift */; };
+		EFB2798D2C2B2841007ADC30 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB2798C2C2B2841007ADC30 /* DashboardView.swift */; };
+		EFB279902C2B28E1007ADC30 /* SidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB2798F2C2B28E1007ADC30 /* SidebarView.swift */; };
+		EFB279942C2B2A12007ADC30 /* Pages.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB279932C2B2A12007ADC30 /* Pages.swift */; };
+		EFB279962C2B2B5A007ADC30 /* iPhoneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB279952C2B2B5A007ADC30 /* iPhoneView.swift */; };
+		EFB279982C2B2BD7007ADC30 /* IpadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB279972C2B2BD7007ADC30 /* IpadView.swift */; };
+		EFB2799A2C2B3CCF007ADC30 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB279992C2B3CCF007ADC30 /* HomeView.swift */; };
+		EFB2799C2C2B3CDE007ADC30 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB2799B2C2B3CDE007ADC30 /* ProfileView.swift */; };
+		EFB2799E2C2B3CEF007ADC30 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB2799D2C2B3CEF007ADC30 /* SettingsView.swift */; };
 		EFD99A642C2AA19500836E3F /* TemplateAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD99A632C2AA19500836E3F /* TemplateAppApp.swift */; };
 		EFD99A662C2AA19500836E3F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD99A652C2AA19500836E3F /* ContentView.swift */; };
 		EFD99A682C2AA19600836E3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFD99A672C2AA19600836E3F /* Assets.xcassets */; };
@@ -14,6 +23,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EFB279862C2B26CF007ADC30 /* UIDevice+Idiom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIDevice+Idiom.swift"; sourceTree = "<group>"; };
+		EFB2798C2C2B2841007ADC30 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		EFB2798F2C2B28E1007ADC30 /* SidebarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarView.swift; sourceTree = "<group>"; };
+		EFB279932C2B2A12007ADC30 /* Pages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pages.swift; sourceTree = "<group>"; };
+		EFB279952C2B2B5A007ADC30 /* iPhoneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPhoneView.swift; sourceTree = "<group>"; };
+		EFB279972C2B2BD7007ADC30 /* IpadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IpadView.swift; sourceTree = "<group>"; };
+		EFB279992C2B3CCF007ADC30 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		EFB2799B2C2B3CDE007ADC30 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		EFB2799D2C2B3CEF007ADC30 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		EFD99A602C2AA19500836E3F /* TemplateApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TemplateApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFD99A632C2AA19500836E3F /* TemplateAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateAppApp.swift; sourceTree = "<group>"; };
 		EFD99A652C2AA19500836E3F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +50,68 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EFB279882C2B27E1007ADC30 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				EFD99A632C2AA19500836E3F /* TemplateAppApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		EFB279892C2B27ED007ADC30 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				EFB279862C2B26CF007ADC30 /* UIDevice+Idiom.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		EFB2798A2C2B27FE007ADC30 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				EFB279912C2B2937007ADC30 /* Views */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		EFB2798B2C2B281C007ADC30 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				EFB2798E2C2B28BF007ADC30 /* Dashboard */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		EFB2798E2C2B28BF007ADC30 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				EFB2798C2C2B2841007ADC30 /* DashboardView.swift */,
+				EFB279992C2B3CCF007ADC30 /* HomeView.swift */,
+				EFB2799B2C2B3CDE007ADC30 /* ProfileView.swift */,
+				EFB2799D2C2B3CEF007ADC30 /* SettingsView.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		EFB279912C2B2937007ADC30 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EFD99A652C2AA19500836E3F /* ContentView.swift */,
+				EFB279972C2B2BD7007ADC30 /* IpadView.swift */,
+				EFB279952C2B2B5A007ADC30 /* iPhoneView.swift */,
+				EFB2798F2C2B28E1007ADC30 /* SidebarView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EFB279922C2B29D6007ADC30 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EFB279932C2B2A12007ADC30 /* Pages.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		EFD99A572C2AA19500836E3F = {
 			isa = PBXGroup;
 			children = (
@@ -51,8 +131,11 @@
 		EFD99A622C2AA19500836E3F /* TemplateApp */ = {
 			isa = PBXGroup;
 			children = (
-				EFD99A632C2AA19500836E3F /* TemplateAppApp.swift */,
-				EFD99A652C2AA19500836E3F /* ContentView.swift */,
+				EFB279882C2B27E1007ADC30 /* App */,
+				EFB2798A2C2B27FE007ADC30 /* Navigation */,
+				EFB2798B2C2B281C007ADC30 /* Modules */,
+				EFB279892C2B27ED007ADC30 /* Extensions */,
+				EFB279922C2B29D6007ADC30 /* Models */,
 				EFD99A672C2AA19600836E3F /* Assets.xcassets */,
 				EFD99A692C2AA19600836E3F /* Preview Content */,
 			);
@@ -137,8 +220,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFB2799A2C2B3CCF007ADC30 /* HomeView.swift in Sources */,
+				EFB279942C2B2A12007ADC30 /* Pages.swift in Sources */,
+				EFB2799C2C2B3CDE007ADC30 /* ProfileView.swift in Sources */,
+				EFB2798D2C2B2841007ADC30 /* DashboardView.swift in Sources */,
+				EFB279872C2B26CF007ADC30 /* UIDevice+Idiom.swift in Sources */,
+				EFB279902C2B28E1007ADC30 /* SidebarView.swift in Sources */,
+				EFB279982C2B2BD7007ADC30 /* IpadView.swift in Sources */,
+				EFB279962C2B2B5A007ADC30 /* iPhoneView.swift in Sources */,
 				EFD99A662C2AA19500836E3F /* ContentView.swift in Sources */,
 				EFD99A642C2AA19500836E3F /* TemplateAppApp.swift in Sources */,
+				EFB2799E2C2B3CEF007ADC30 /* SettingsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
